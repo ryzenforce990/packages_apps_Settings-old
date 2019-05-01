@@ -108,6 +108,7 @@
             android:key="density"
             android:title="@string/developer_smallest_width" />
 
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -250,4 +251,23 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/customization_category_title">
+
+        <Preference
+            android:key="display_customizations"
+            android:title="@string/display_customization_title"
+            android:summary="@string/display_customization_summary"
+            android:fragment="com.android.settings.awaken.fragments.DisplayCustomizations" />
+
+        <Preference
+            android:key="display_cutout_force_fullscreen_settings"
+            android:title="@string/display_cutout_force_fullscreen_title"
+            android:summary="@string/display_cutout_force_fullscreen_summary"
+            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
