@@ -223,9 +223,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
-
-    <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    
 
 </resources>
